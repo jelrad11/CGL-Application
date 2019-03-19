@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: 029d756a3b15dc54f812284576c29f0c
+guid: b9743fe9a2834ca4eb0c38f422794f40
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: 'Material #25'
+    2100000: Wood
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Island01
+    4300000: Me_PalmTree
   externalObjects: {}
   materials:
     importMaterials: 1
