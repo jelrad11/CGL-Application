@@ -7,10 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Sand
+  m_Name: Sand_Objects
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
-  m_ShaderKeywords: _DISPLACEMENT_LOCK_TILING_SCALE _HEIGHTMAP _NORMALMAP _NORMALMAP_TANGENT_SPACE
-    _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE
+  m_ShaderKeywords: _HEIGHTMAP _NORMALMAP _NORMALMAP_TANGENT_SPACE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -30,9 +29,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap:
-        m_Texture: {fileID: 2800000, guid: fe9e761646bd11d4c84dc6e70d03b911, type: 3}
+        m_Texture: {fileID: 2800000, guid: ebd72ab25808dac4293b4c3fdb4ebdee, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Offset: {x: -0.33, y: -0.16}
     - _BentNormalMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -78,7 +77,7 @@ Material:
         m_Scale: {x: 7, y: 7}
         m_Offset: {x: 0, y: 0}
     - _HeightMap:
-        m_Texture: {fileID: 2800000, guid: 285f84396813d0444ace923d69ed9b89, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1e26f7caaf7d9764498a4d57424a84c5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _IridescenceMaskMap:
@@ -90,7 +89,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: fe9e761646bd11d4c84dc6e70d03b911, type: 3}
+        m_Texture: {fileID: 2800000, guid: ebd72ab25808dac4293b4c3fdb4ebdee, type: 3}
         m_Scale: {x: 7, y: 7}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
@@ -102,7 +101,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 3aa9fa51e6e1c0d449d63044a69af5c7, type: 3}
+        m_Texture: {fileID: 2800000, guid: 149f84adedbcb7e4f97e06e7fed6de23, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMapOS:
@@ -166,7 +165,7 @@ Material:
     - _DiffusionProfile: 0
     - _DisplacementLockObjectScale: 1
     - _DisplacementLockTilingScale: 1
-    - _DisplacementMode: 2
+    - _DisplacementMode: 0
     - _DistortionBlendMode: 0
     - _DistortionBlurBlendMode: 0
     - _DistortionBlurDstBlend: 1
@@ -197,13 +196,13 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 1
     - _HdrpVersion: 2
-    - _HeightAmplitude: 0
-    - _HeightCenter: 1
-    - _HeightMapParametrization: 0
-    - _HeightMax: 1
-    - _HeightMin: -1
-    - _HeightOffset: 0
-    - _HeightPoMAmplitude: 0
+    - _HeightAmplitude: 0.02
+    - _HeightCenter: -6.335
+    - _HeightMapParametrization: 1
+    - _HeightMax: 10.4
+    - _HeightMin: -2.85
+    - _HeightOffset: 13.67
+    - _HeightPoMAmplitude: -1.34
     - _HeightTessAmplitude: 2
     - _HeightTessCenter: 0.5
     - _InitialBend: 1
