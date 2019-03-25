@@ -1,15 +1,14 @@
 fileFormatVersion: 2
-guid: 5f367971a7728444a91f9ee62fd91300
+guid: 0bfd41218bd7a614b8b3e6a1f989410c
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: No Name
-    2100002: 'Material #27'
+    2100000: 'Material #27'
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Me_Wood-Barrel
+    4300000: Me_Prop_Planks01
   externalObjects: {}
   materials:
     importMaterials: 1
